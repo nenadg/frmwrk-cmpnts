@@ -1,0 +1,30 @@
+.frmwrk-datalist {
+	width: 320px;
+
+	border: 1px solid #dfe2e5;
+
+	border-collapse: collapse;
+
+	box-sizing: border-box;
+	color: rgb(36, 41, 46);
+	display: block;
+}
+
+.frmwrk-datalist datalist {
+	width: 100%;
+	display: table;
+}
+
+.frmwrk-datalist datalist option {
+	background-color: #fff;
+	border-top: 1px solid #c6cbd1;
+	padding: 5px;
+}
+
+.frmwrk-datalist datalist option:nth-child(2n) {
+	background-color: #f6f8fa;
+}
+
+.frmwrk-datalist datalist option:last-child {
+	border-bottom: 1px solid #c6cbd1;
+}

@@ -1,0 +1,23 @@
+{
+  "name": "@nenadg/frmwrk-cmpnts",
+  "version": "0.0.1",
+  "description": "frmwkr components",
+  "main": "./index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+http://github.com/nenadg/frmwrk-cmpnts.git"
+  },
+  "keywords": [],
+  "author": "Nenad Golubovic",
+  "license": "MIT",
+  "bugs": {
+    "url": "http://github.com/nenadg/frmwrk-cmpnts/issues"
+  },
+  "homepage": "http://github.com/nenadg/frmwrk-cmpnts#readme",
+  "deprecated": false,
+  "dependencies": {
+    "@nenadg/frmwrk": "0.0.11"
+  },
+  "devDependencies": {}
+}
