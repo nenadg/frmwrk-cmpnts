@@ -1,37 +1,37 @@
 :root {
-  --white: #ffffff;
-  --black: #000000;
+  --fc-white: #ffffff;
+  --fc-black: #000000;
 
-  --track-gray: #f9f9f9;
-  --lighter-gray: #f1f1f1;
-  --light-gray: #ececec;
-  --dark-gray: #adadad;
-  --darker-gray: #aaaaaa;
-  --inset-gray: #878787;
-  --gradient-gray: #d8d8d8;
+  --fc-track-gray: #f9f9f9;
+  --fc-lighter-gray: #f1f1f1;
+  --fc-light-gray: #ececec;
+  --fc-dark-gray: #adadad;
+  --fc-darker-gray: #aaaaaa;
+  --fc-inset-gray: #878787;
+  --fc-gradient-gray: #d8d8d8;
 
-  --border-gray: #6a6a6a;
+  --fc-border-gray: #6a6a6a;
 
-  --attention: #2196f3;
+  --fc-attention: #2196f3;
 
-  --success: #2a7e2e;
-  --wait: #fff8dd;
-  --warning: #9d2727;
-  --error: #d92525;
+  --fc-success: #2a7e2e;
+  --fc-wait: #fff8dd;
+  --fc-warning: #9d2727;
+  --fc-error: #d92525;
 
-  --base-gap: 0.5em;
-  --base-border: 1px solid var(--border-gray);
-  --base-box-shadow: 0px 0px 2px 0px var(--dark-gray);
+  --fc-base-gap: 0.5em;
+  --fc-base-border: 1px solid var(--fc-border-gray);
+  --fc-base-box-shadow: 0px 0px 2px 0px var(--fc-dark-gray);
 
-  --base-gradient: linear-gradient(0deg, var(--gradient-gray) 0%, var(--light-gray) 100%);
-  --base-gradient-inverted: linear-gradient(180deg, var(--gradient-gray) 0%, var(--light-gray) 100%);
+  --fc-base-gradient: linear-gradient(0deg, var(--fc-gradient-gray) 0%, var(--fc-light-gray) 100%);
+  --fc-base-gradient-inverted: linear-gradient(180deg, var(--fc-gradient-gray) 0%, var(--fc-light-gray) 100%);
 
-  --base-min-element-height: 8px;
-  --base-line-height: calc(var(--base-min-element-height) * 2 + 2px);
+  --fc-base-min-element-height: 8px;
+  --fc-base-line-height: calc(var(--fc-base-min-element-height) * 2 + 2px);
 
-  --base-font-size: 14px;
+  --fc-base-font-size: 14px;
 }
 
 .frmwrk-component {
-  background-color: var(--inset-gray);
+  background-color: var(--fc-inset-gray);
 }

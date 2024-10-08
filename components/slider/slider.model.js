@@ -45,7 +45,7 @@ const SliderModel = {
       function updateRangeEl(rangeEl) {
         var ratio = valueTotalRatio(rangeEl.value, rangeEl.min, rangeEl.max);
 
-        rangeEl.style.backgroundImage = getLinearGradientCSS(ratio, "var(--dark-gray)", "var(--light-gray)");
+        rangeEl.style.backgroundImage = getLinearGradientCSS(ratio, "var(--fc-dark-gray)", "var(--fc-light-gray)");
       }
 
       function initRangeEl() {

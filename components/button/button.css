@@ -1,21 +1,21 @@
 .frmwrk-button {
   width: max-content;
-  min-height: calc(var(--base-min-element-height) * 2);
-  padding: calc(var(--base-min-element-height) / 2) calc(var(--base-min-element-height) * 2);
+  min-height: calc(var(--fc-base-min-element-height) * 2);
+  padding: calc(var(--fc-base-min-element-height) / 2) calc(var(--fc-base-min-element-height) * 2);
 
-  font-size: var(--base-font-size);
-  line-height: var(--base-line-height);
+  font-size: var(--fc-base-font-size);
+  line-height: var(--fc-base-line-height);
 
-  background: var(--white);
-  border: var(--base-border);
-  box-shadow: var(--base-box-shadow);
+  background: var(--fc-white);
+  border: var(--fc-base-border);
+  box-shadow: var(--fc-base-box-shadow);
 }
 
 .frmwrk-button:hover,
 .frmwrk-button:active {
-  background: var(--light-gray);
+  background: var(--fc-light-gray);
 }
 
 .frmwrk-button:active {
-  outline: var(--attention) solid 1px;
+  outline: var(--fc-attention) solid 1px;
 }

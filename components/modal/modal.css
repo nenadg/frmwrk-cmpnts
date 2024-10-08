@@ -53,20 +53,20 @@
 }
 
 .frmwrk-modal.modal-overlay .modal-dropzone .modal-movable .modal-header .titlebar {
-  min-height: calc(var(--base-min-element-height) * 2);
+  min-height: calc(var(--fc-base-min-element-height) * 2);
 
-  font-size: var(--base-font-size);
-  line-height: var(--base-line-height);
+  font-size: var(--fc-base-font-size);
+  line-height: var(--fc-base-line-height);
 
   display: flex;
   flex-flow: row;
   width: max-content;
 
-  border-top: var(--base-border);
-  border-left: var(--base-border);
-  border-right: var(--base-border);
+  border-top: var(--fc-base-border);
+  border-left: var(--fc-base-border);
+  border-right: var(--fc-base-border);
 
-  background-color: var(--white);
+  background-color: var(--fc-white);
 }
 
 .frmwrk-modal.modal-overlay .modal-dropzone .modal-movable .modal-header .titlebar p.title {
@@ -80,24 +80,24 @@
 }
 
 .frmwrk-modal.modal-overlay .modal-dropzone .modal-movable .modal-content {
-  background-color: var(--white);
-  /*box-shadow: var(--base-box-shadow);*/
-  border-top: var(--base-border);
-  border-left: var(--base-border);
-  border-right: var(--base-border);
+  background-color: var(--fc-white);
+  /*box-shadow: var(--fc-base-box-shadow);*/
+  border-top: var(--fc-base-border);
+  border-left: var(--fc-base-border);
+  border-right: var(--fc-base-border);
 
-  padding: calc(var(--base-min-element-height) / 2 + 1px) calc(var(--base-min-element-height) / 2 + 1px);
+  padding: calc(var(--fc-base-min-element-height) / 2 + 1px) calc(var(--fc-base-min-element-height) / 2 + 1px);
 }
 
 .frmwrk-modal.modal-overlay .modal-dropzone .modal-movable .modal-footer {
-  background-color: var(--white);
+  background-color: var(--fc-white);
 
-  border-top: var(--base-border);
-  border-bottom: var(--base-border);
-  border-left: var(--base-border);
-  border-right: var(--base-border);
+  border-top: var(--fc-base-border);
+  border-bottom: var(--fc-base-border);
+  border-left: var(--fc-base-border);
+  border-right: var(--fc-base-border);
 
-  padding: calc(var(--base-min-element-height) / 2 + 1px) calc(var(--base-min-element-height) / 2 + 1px);
+  padding: calc(var(--fc-base-min-element-height) / 2 + 1px) calc(var(--fc-base-min-element-height) / 2 + 1px);
 }
 
 .blur {

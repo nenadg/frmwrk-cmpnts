@@ -18,7 +18,7 @@
 	text-align: center;
 
 	content: " ";
-	background-color: var(--white);
+	background-color: var(--fc-white);
 	height: 33px;
 	width: 99%;
 	display: block;
@@ -28,5 +28,5 @@
 }
 
 .simplegrid-container table tbody:empty:after {
-	background-color: var(--lighter-gray);
+	background-color: var(--fc-lighter-gray);
 }
