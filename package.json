@@ -1,6 +1,6 @@
 {
   "name": "@nenadg/frmwrk-cmpnts",
-  "version": "0.0.3",
+  "version": "0.0.31",
   "description": "frmwkr components",
   "main": "./index.js",
   "scripts": {},
@@ -16,8 +16,6 @@
   },
   "homepage": "http://github.com/nenadg/frmwrk-cmpnts#readme",
   "deprecated": false,
-  "dependencies": {
-    "@nenadg/frmwrk": "0.0.2"
-  },
+  "dependencies": {},
   "devDependencies": {}
 }
