@@ -15,7 +15,8 @@ const TextField = {
           input: {
             placeholder: "{*:placeholder}",
             type: "text",
-            name: "{*:inputName}"
+            name: "{*:inputName}",
+            onchange: "{*:onChangeEvent}"
           }
         },
         {

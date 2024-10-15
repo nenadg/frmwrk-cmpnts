@@ -7,7 +7,8 @@ const CheckBoxModel = {
         checkboxName: "checkboxTest",
         checkboxChecked: "",
         checkboxTitle: "Checkbox ",
-        checkboxDisabled: ""
+        checkboxDisabled: "",
+        onChangeEvent: "CheckBox::onchange"
       });
     },
 

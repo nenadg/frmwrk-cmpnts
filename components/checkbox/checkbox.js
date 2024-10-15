@@ -16,12 +16,13 @@ const CheckBox = {
             type: "checkbox",
             name: "{*:checkboxName}",
             checked: "{*:checkboxChecked}",
-            disabled: "{*:checkboxDisabled}"
+            disabled: "{*:checkboxDisabled}",
+            onclick: "{*:onChangeEvent}"
           }
         },
         {
           label: {
-            onclick: "CheckBox::onchange",
+            onclick: "{*:onChangeEvent}",
             innerText: "{*:checkboxTitle}",
             for: "{*:checkboxName}"
           }

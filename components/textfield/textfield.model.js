@@ -1,13 +1,18 @@
 const TextFieldModel = {
-  name: 'TextField',
-  type: 'model',
+  name: "TextField",
+  type: "model",
   config: {
-    oninitelement: (model, state) => {
+    oninitelement: (model) => {
       model.update({
-        placeholder: 'Placeholder text',
-      	inputName: 'textfield',
-      	inputLabel: 'TextField'
+        placeholder: "Placeholder text",
+        inputName: "textfield",
+        inputLabel: "TextField",
+        onChangeEvent: "TextField::OnChange"
       });
+    },
+
+    OnChange: () => {
+      console.log("change");
     }
   }
 };

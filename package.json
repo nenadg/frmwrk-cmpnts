@@ -1,6 +1,6 @@
 {
   "name": "@nenadg/frmwrk-cmpnts",
-  "version": "0.0.21",
+  "version": "0.0.3",
   "description": "frmwkr components",
   "main": "./index.js",
   "scripts": {},
