@@ -6,7 +6,10 @@ const DropdownModel = {
       model.update({
         isVisible: "",
         selectionText: "Selection",
-        selectionColor: "inherit"
+        selectionColor: "inherit",
+        onSelectEvent: "Dropdown::select",
+        onFocusEvent: "Dropdown::focus",
+        onBlurEvent: "Dropdown::blur"
       });
     },
 

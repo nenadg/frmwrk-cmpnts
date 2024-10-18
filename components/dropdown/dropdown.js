@@ -23,8 +23,8 @@ const Dropdown = {
                   style: "cursor: pointer",
                   placeholder: "Select...",
                   tabIndex: 4,
-                  onfocus: "Dropdown::focus",
-                  onblur: "Dropdown::blur"
+                  onfocus: "{*:onFocusEvent}",
+                  onblur: "{*:onBlurEvent}"
                 }
               },
               {
@@ -42,7 +42,7 @@ const Dropdown = {
                         li: {
                           className: "{*:elements[*:elements.selected]}",
                           innerText: "{*:elements[*:elements.text]}",
-                          onclick: "Dropdown::select"
+                          onclick: "{*:onSelectEvent}"
                         }
                       }
                     }
@@ -55,7 +55,7 @@ const Dropdown = {
         {
           label: {
             for: "dropdown",
-            style: "color: {*:selectionColor}",
+            // style: "color: {*:selectionColor}",
             textContent: "{*:selectionText}"
           }
         }
